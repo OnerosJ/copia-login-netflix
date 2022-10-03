@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/BebasNeue-Regular.otf'), url('fonts/BebasNeue-Regular.eot'), url('fonts/BebasNeue-Regular.ttf'), url('fonts/BebasNeue-Regular.woff'), url('fonts/BebasNeue-Regular.woff2');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(background.jpg);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    color: red;
+    font-family: 'bebas', sans-serif;
+    font-size: 4.3em;
+    filter: brightness(100%);
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 90px;
+    margin-left: 3%;
+    width: 167px;
+    height: 90px;
+}
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+    margin-bottom: 90px;
+    width: 314px;
+    height: 560px;
+    padding: 60px 68px 40px 68px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+.text-login {
+    background: #333;
+    border: 0;
+    border-radius: 4px;
+    width: 274px;
+    height: 34px;
+    padding: 16px 20px 0 20px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.div-login-form {
+    display: flex;
+    flex-direction: column;
+
+    width: 314px;
+    height: 380px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botao {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1em;
+    margin-right: 0.5em;
+    min-height: 50px;
+    min-width: 98px;
+    padding: 12px 1em;
+    width: auto;
+    margin: 40px 0 12px;
+    background-color: #e50914;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#first {
+    margin-bottom: 15px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+}
+
+#remember {
+    padding: 0;
+    margin-right: 10px;
+    min-width: 13px;
+    min-height: 13px;
+    margin: 0;
+}
+
+.checkbox {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.help {
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.help:hover {
+    text-decoration: underline;
+}
+
+.extra-infos>p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px
+}
+
+.extra-infos>p>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.extra-infos>p>a:hover {
+    text-decoration: underline;
+}
+
+.extra-infos>.captcha {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-top: 11px;
+}
+
+.extra-infos>.captcha>a {
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+    width: 100%;
+    height: 238.094px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.footer-div {
+    width: 1000px;
+    height: 178.094px;
+    padding: 30px 0;
+    margin: 0 166px;
+}
+
+footer>.footer-div>.phone-help>p {
+    color: #737373;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+footer>.footer-div>.phone-help>p>a {
+    color: #737373;
+    text-decoration: none;
+}
+
+footer>.footer-div>.phone-help>p>a:hover {
+    text-decoration: underline;
+}
+
+ul>li>a {
+    text-decoration: none;
+    list-style-position: inside;
+    color: #737373;
+}
+
+ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.suport-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+    font-size: 13px;
+    padding: 0;
+
+}
+
+li {
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+}
+
+.language-select {
+    display: flex;
+    flex-direction: row;
+    width: 138px;
+    height: 48px;
+    align-items: center;
+}
+
+select {
+    display: inline-block;
+    background-color: #000;
+    color: #bbb;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    border: 1px solid #333;
+}
+
+.language-select::before {
+    content: url('globe.svg');
+    position: absolute;
+    padding-left: 10px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(0, 0, 0);
+    font-family: 'nf';
+}
